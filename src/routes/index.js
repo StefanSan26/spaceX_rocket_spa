@@ -1,13 +1,13 @@
 import Header from '../templates/header'
 import home from '../pages/home'
-// import Rockets from '../pages/Character'
+import Rocket from '../pages/rocket'
 import Error404 from '../pages/Error404'
 import getHash from '../utils/getHash'
 import resolveRoutes from '../utils/resolveRoutes'
 
 const routes = {
 	'/': home,
-	// '/:id': Character,
+	'/:id': Rocket,
 	'/contact':'Contact',
 }
 

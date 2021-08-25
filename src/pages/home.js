@@ -7,7 +7,7 @@ const home = async ()=>{
 		${rockets.map(rocket =>`
 		<article class="rocket-item">	        
 			<a href="#/${rocket.id}/">
-				<img src="${rocket.flickr_images[0]}" alt="${rocket.name}">
+				<img src="${rocket.flickr_images[0]}" alt="${rocket.name}" class="rockets-image">
 				<h2>${rocket.name}</h2>
 			</a>
 		</article>
