@@ -8,7 +8,7 @@ const home = async ()=>{
 		<article class="rocket-item">	        
 			<a href="#/${rocket.id}/">
 				<img src="${rocket.flickr_images[0]}" alt="${rocket.name}" class="rockets-image">
-				<h2>${rocket.name}</h2>
+				<h2 class="rockets-card__title">${rocket.name}</h2>
 			</a>
 		</article>
 		`).join('')}
