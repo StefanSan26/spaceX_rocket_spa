@@ -16,7 +16,7 @@ a {
 h2{
 	font-size: 2rem;
 }
-h2:hover,h1 a:hover{
+.rockets-card__title:hover,h1 a:hover{
 	color: rgb(187, 115, 115);
 }
 .header {
